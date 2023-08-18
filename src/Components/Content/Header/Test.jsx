@@ -1,13 +1,13 @@
 const Test = () => {
   return (
-    <div className="jumbotron h-80">
-      <div className="background relative h-52">
+    <div className="jumbotron h-100 pt-[88px]">
+      <div className="background">
         {/* <img
           src="/images/bg-img.png"
           alt="trees and water from above"
           className="absolute"
         /> */}
-        <div className="text-container absolute z-10 text-white flex flex-col justify-center items-center w-full">
+        <div className="text-container  z-10 text-white flex flex-col justify-center items-center w-full">
           <h1>The start of a great adventure.</h1>
           <p className="main-text">
             Porta dui sed mattis odio cras integer sapien proin diam. Malesuada

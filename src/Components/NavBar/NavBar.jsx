@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
-    <nav className="">
-      <div className="border-b-2 mx-[104px] flex items-center justify-between h-[88px]">
+    <nav className="sticky top-0 bg-white border-b-2 shadow">
+      <div className=" mx-[104px] flex items-center justify-between h-[88px]">
         {/* ------Logo------ */}
         <div>
           <img src="/images/logoipsum-297 1.svg" alt="Logoips" />
