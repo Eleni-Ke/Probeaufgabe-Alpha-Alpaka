@@ -1,8 +1,10 @@
 import "./App.css";
+import Footer from "./Components/Content/Footer/Footer";
 import Header from "./Components/Content/Header/Header";
 import Test from "./Components/Content/Header/Test";
 import Headline from "./Components/Content/Headline/Headline";
 import HighlightSection from "./Components/Content/HighlightSection/HighlightSection";
+import IconTitleSection from "./Components/Content/IconTitleSection/IconTitleSection";
 import ProductSection from "./Components/Content/ProductSection/ProductSection";
 import SliderSection from "./Components/Content/SliderSection/SliderSection";
 import NavBar from "./Components/NavBar/NavBar";
@@ -17,6 +19,8 @@ function App() {
       <Headline />
       <SliderSection />
       <HighlightSection />
+      <IconTitleSection />
+      <Footer />
     </div>
   );
 }
