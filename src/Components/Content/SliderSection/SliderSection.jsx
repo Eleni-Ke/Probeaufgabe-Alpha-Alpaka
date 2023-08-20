@@ -5,7 +5,7 @@ const SliderSection = () => {
   return (
     <div className="px-[104px] py-[40px]">
       <div>Filer buttons</div>
-      <div className="flex gap-[18px]">
+      <div className="grid grid-cols-4 gap-[18px]">
         {forestImages.map((image) => {
           return <Slider key={image.id} image={image} />;
         })}

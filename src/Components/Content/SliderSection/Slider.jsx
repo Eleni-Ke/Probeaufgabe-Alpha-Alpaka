@@ -1,8 +1,8 @@
 const Slider = (props) => {
   return (
-    <div>
-      <img src={props.image.link} alt="trees" />
-      <button>Lorem Ipsum</button>
+    <div className="relative">
+      <img src={props.image.link} alt="trees" className=" w-full" />
+      <button className="absolute">Lorem Ipsum</button>
     </div>
   );
 };
