@@ -1,6 +1,6 @@
 const Headline = () => {
   return (
-    <div className="px-[104px] pt-[40px] flex flex-col gap-4">
+    <div className="custom:px-[104px] px-4 pt-[40px] flex flex-col gap-4">
       <h2 className="text-[32px]" style={{ textShadow: "1px 3px 4px #9ca3af" }}>
         Blog
       </h2>

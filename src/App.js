@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App relative">
       <NavBar />
-      <MegamenuBlog />
+      {/* <MegamenuBlog /> */}
       <Header />
       <ProductSection />
       <Headline />

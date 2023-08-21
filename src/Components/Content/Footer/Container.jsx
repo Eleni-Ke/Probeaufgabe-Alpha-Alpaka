@@ -1,6 +1,6 @@
 const Container = () => {
   return (
-    <div className="grid grid-cols-4 px-[104px] py-[80px] text-left  bg-[#F2F2F2]  shadow-md shadow-gray-400">
+    <div className="hidden custom:grid grid-cols-4 px-[104px] py-[80px] text-left  bg-[#F2F2F2]  shadow-md shadow-gray-400">
       <div>
         <h5 className="font-bold mb-6">Loremipsum GmbH</h5>
         <p className="mb-4">
