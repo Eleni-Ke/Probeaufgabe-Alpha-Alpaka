@@ -19,7 +19,9 @@ const HighlightSection = () => {
             tincidunt porta faucibus lorem in integer et.
           </p>
         </div>
-        <button>Read more</button>
+        <button className="rounded-full bg-[#F2F2F2] hover:bg-[#C8C8C8] active:border-[#4B4B4B] active:border-[1px] px-4 py-2 mx-auto">
+          Read more
+        </button>
       </div>
     </div>
   );

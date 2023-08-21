@@ -22,7 +22,7 @@ const NavBar = () => {
           </button>
           <MegamenuBlog />
           {/* ------Product Nav------ */}
-          <button className="hover:text-[#B0CB52]active:text-[#00915A]">
+          <button className="hover:text-[#B0CB52] active:text-[#00915A]">
             Products
           </button>
           {/* ------About Nav------ */}

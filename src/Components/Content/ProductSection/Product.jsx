@@ -11,7 +11,7 @@ const Product = (props) => {
           <p className="sf text-[15px]">{props.product.description}</p>
         </div>
 
-        <div className="bg-white h-10 w-10 rounded-full flex  hover:bg-gray-200 hover:cursor-pointer">
+        <div className="bg-white h-10 w-10 rounded-full flex  hover:bg-[#C8C8C8] hover:cursor-pointer">
           <img
             src="/images/RightArrow.svg"
             alt="right arrow"

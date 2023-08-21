@@ -15,9 +15,9 @@ const Header = () => {
           </p>
 
           <div className="button">
-            <a href="#link" className="link">
+            <button className="text-[#4B4B4B]  rounded-full bg-[#F2F2F2] hover:bg-[#C8C8C8] active:border-[#4B4B4B] active:border-[1px] px-4 py-2">
               Read more
-            </a>
+            </button>
           </div>
         </div>
       </div>
