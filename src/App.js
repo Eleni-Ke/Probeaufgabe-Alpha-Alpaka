@@ -6,7 +6,6 @@ import HighlightSection from "./Components/Content/HighlightSection/HighlightSec
 import IconTitleSection from "./Components/Content/IconTitleSection/IconTitleSection";
 import ProductSection from "./Components/Content/ProductSection/ProductSection";
 import SliderSection from "./Components/Content/SliderSection/SliderSection";
-import MegamenuBlog from "./Components/NavBar/MegamenuBlog";
 import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
