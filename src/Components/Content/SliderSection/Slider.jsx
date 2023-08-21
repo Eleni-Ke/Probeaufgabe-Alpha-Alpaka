@@ -1,7 +1,7 @@
 const Slider = (props) => {
   return (
     <div
-      className="relative hidden duration-200 ease-linear"
+      className="relative hidden custom:block duration-200 ease-linear"
       data-carousel-item
     >
       <img src={props.image.link} alt="trees" className=" w-full" />
