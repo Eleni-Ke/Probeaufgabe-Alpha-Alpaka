@@ -8,11 +8,17 @@ const NavBar = () => {
         </div>
         <div className="justify-start items-start flex gap-3 text-">
           {/* ------Blog Nav------ */}
-          <div>Blog</div>
+          <button className="hover:text-[#B0CB52] active:text-[#00915A]hover:underline">
+            Blog
+          </button>
           {/* ------Product Nav------ */}
-          <div>Products</div>
+          <button className="hover:text-[#B0CB52]active:text-[#00915A]">
+            Products
+          </button>
           {/* ------About Nav------ */}
-          <div>About</div>
+          <button className="hover:text-[#B0CB52] active:text-[#00915A]">
+            About
+          </button>
         </div>
       </div>
     </nav>
