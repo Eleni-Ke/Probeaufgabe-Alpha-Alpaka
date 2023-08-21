@@ -1,6 +1,6 @@
 const MegamenuProduct = () => {
   return (
-    <div className="grid grid-cols-3  px-[104px] py-[40px]">
+    <div className="grid grid-cols-3  px-[104px] py-[40px] gap-4 sticky top-[88px] z-20 bg-white  border-t-2">
       <div className="h-full flex flex-col justify-between">
         <div>
           <h3 className="text-left mb-8 text-[32px]">Products</h3>
@@ -28,7 +28,7 @@ const MegamenuProduct = () => {
             </button>
           </div>
         </div>
-        <button className="flex gap-2 items-center">
+        <button className="flex gap-2 items-center rounded-full">
           <img src="images/RightArrow.svg" alt="right arrow" />
           <p className="underline">Show all</p>
         </button>
@@ -45,7 +45,7 @@ const MegamenuProduct = () => {
             </p>
           </div>
 
-          <button className="flex gap-2 items-center  text-[#4B4B4B]">
+          <button className="flex gap-2 items-center  text-[#4B4B4B] px-4 py-2 rounded-full bg-[#F2F2F2] hover:bg-[#C8C8C8] active:border-[#4B4B4B] active:border-[1px] mr-auto">
             <img src="images/RightArrow.svg" alt="right arrow" />
             <p className="underline">Read more</p>
           </button>
@@ -63,7 +63,7 @@ const MegamenuProduct = () => {
             </p>
           </div>
 
-          <button className="flex gap-2 items-center  text-[#4B4B4B]">
+          <button className="flex gap-2 items-center  text-[#4B4B4B] px-4 py-2 rounded-full bg-[#F2F2F2] hover:bg-[#C8C8C8] active:border-[#4B4B4B] active:border-[1px]  mr-auto">
             <img src="images/RightArrow.svg" alt="right arrow" />
             <p className="underline">Read more</p>
           </button>

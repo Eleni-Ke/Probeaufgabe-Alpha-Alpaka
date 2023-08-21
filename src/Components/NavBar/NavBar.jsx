@@ -1,10 +1,16 @@
 import { useState } from "react";
 import MegamenuBlog from "./MegamenuBlog";
 import MegamenuProduct from "./MegaMenuProduct";
+import MobileNavBar from "./MobileNavBar";
 
 const NavBar = () => {
   const [megamenuBlogVisible, setMegamenuBlogVisible] = useState(false);
   const [megamenuProductVisible, setMegamenuProductVisible] = useState(false);
+  const [mobilemenuVisible, setMobilemenuVisible] = useState(false);
+
+  const togglemobile = () => {
+    setMobilemenuVisible(!mobilemenuVisible);
+  };
 
   const toggleMegamenuBlog = () => {
     if (megamenuProductVisible) {
@@ -27,9 +33,9 @@ const NavBar = () => {
           <div>
             <img src="/images/logoipsum-297 1.svg" alt="Logoips" />
           </div>
-          <div className="custom:hidden">
+          <button className="custom:hidden" onClick={togglemobile}>
             <img src="images/menu.svg" alt="menu" />
-          </div>
+          </button>
           <div className="custom:flex justify-start items-start hidden gap-3 text-">
             <button
               className="hover:text-[#B0CB52] active:text-[#00915A]hover:underline"
@@ -53,6 +59,7 @@ const NavBar = () => {
       </nav>
       {megamenuBlogVisible && <MegamenuBlog />}
       {megamenuProductVisible && <MegamenuProduct />}
+      {mobilemenuVisible && <MobileNavBar />}
     </>
   );
 };
