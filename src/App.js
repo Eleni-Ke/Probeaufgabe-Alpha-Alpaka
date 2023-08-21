@@ -13,8 +13,7 @@ function App() {
   return (
     <div className="App relative">
       <NavBar />
-      {/* <Header /> */}
-      <Test />
+      <Header />
       <ProductSection />
       <Headline />
       <SliderSection />
