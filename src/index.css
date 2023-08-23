@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+.navItemProduct:hover div,
+.navItemBlog:hover div,
+.navItemAbout:hover div {
+  background-color: #b0cb52;
+}
+
 @tailwind utilities;
